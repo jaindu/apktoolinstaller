@@ -7,7 +7,6 @@ cd ../../usr/local/bin
 sudo chmod +x apktool
 sudo chmod +x apktool.jar
 cd ../../../home/
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 sudo apt-get install -y zipalign
 sudo apt install openjdk-11-jdk-headless
 sudo apt install openjdk-8-jdk-headless
